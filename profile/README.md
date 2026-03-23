@@ -2,7 +2,8 @@
 
 ## About Open-CMSIS-Pack
 
-The Open-CMSIS-Pack project offers a flexible and easy to use end to end development flow for embedded software - from project creation to software execution on real or virtual hardware.
+The [Open-CMSIS-Pack project](https://open-cmsis-pack.org) offers a flexible and easy to use end to end development
+flow for embedded software - from project creation to software execution on real or virtual hardware.
 
 ## List of Repositories
 
