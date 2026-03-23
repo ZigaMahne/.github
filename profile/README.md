@@ -14,24 +14,28 @@ The Open-CMSIS-Pack project offers a flexible and easy to use end to end develop
 | [Open-CMSIS-SVD-Spec](https://github.com/Open-CMSIS-Pack/svd-spec) | A specification for describing the system memory mapped registers and peripherals of devices (for example microcontrollers). | Access the [pre-built specification directly](https://open-cmsis-pack.github.io/svd-spec/main/index.html). |
 | [Debug Adapter Registry](https://github.com/Open-CMSIS-Pack/debug-adapter-registry) | Provides a list of supported debuggers with VS Code launch.json/tasks.json template. | Refer to the [Readme.md](https://github.com/Open-CMSIS-Pack/debug-adapter-registry) file. |
 | [Open-CMSIS-Pack-Taxonomy](https://github.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Taxonomy) | Organizes Cclass and Cgroup definitions to access software [\<components\>](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/pdsc_components_pg.html) and application programming interfaces [\<apis\>](https://open-cmsis-pack.github.io/Open-CMSIS-Pack-Spec/main/html/pdsc_apis_pg.html). | Refer to the [Readme.md](https://github.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Taxonomy) file. |
-| [Open-CMSIS-CDI-Spec](https://github.com/Open-CMSIS-Pack/Open-CMSIS-CDI-Spec) | A set of APIs to enable firmware updates, running IoT applications, and RTOSes on a broad range of devices. | Refer to [Readme.md](https://github.com/Open-CMSIS-Pack/Open-CMSIS-CDI-Spec). |
 
 ### Ready-to-use Tools
 
 | Repository | Description | Documentation |
 |------------|-------------|---------------|
 | [CMSIS-Toolbox](https://github.com/Open-CMSIS-Pack/cmsis-toolbox) | A set of command-line tools for software packs. | The [documentation](https://open-cmsis-pack.github.io/cmsis-toolbox/installation) explains the download, installation, and configuration process. |
-| [CMSIS Solution](https://github.com/Open-CMSIS-Pack/vscode-cmsis-solution) | A VS Code extension for project management and build based on the CMSIS-Toolbox. | The [documentation](https://github.com/Open-CMSIS-Pack/vscode-cmsis-solution/blob/main/README.md) provides an overview of features and usage. |
-| [CMSIS Debugger](https://github.com/Open-CMSIS-Pack/vscode-cmsis-debugger) | A VS Code extension pack to enable debugging Arm Cortex-M processor-based devices using the GDB/MI protocol. | The [documentation](https://github.com/Open-CMSIS-Pack/vscode-cmsis-debugger/blob/main/README.md) provides an overview of features and usage. |
 | [gen-pack](https://github.com/Open-CMSIS-Pack/gen-pack) | A library for scripts creating Open-CMSIS-Packs. | Refer to the [Readme.md](https://github.com/Open-CMSIS-Pack/gen-pack) file. |
 | [gen-pack-action](https://github.com/Open-CMSIS-Pack/gen-pack-action) | A GitHub workflow action generating documentation and Open-CMSIS-Packs. | Refer to [Readme.md](https://github.com/Open-CMSIS-Pack/gen-pack-action). |
+
+### VS Code Extensions
+
+| Repository | Description | Documentation |
+|------------|-------------|---------------|
+| [CMSIS Solution](https://github.com/Open-CMSIS-Pack/vscode-cmsis-solution) | A VS Code extension for project management and build based on the CMSIS-Toolbox. | The [documentation](https://github.com/Open-CMSIS-Pack/vscode-cmsis-solution/blob/main/README.md) provides an overview of features and usage. |
+| [CMSIS Debugger](https://github.com/Open-CMSIS-Pack/vscode-cmsis-debugger) | A VS Code extension pack to enable debugging Arm Cortex-M processor-based devices using the GDB/MI protocol. | The [documentation](https://github.com/Open-CMSIS-Pack/vscode-cmsis-debugger/blob/main/README.md) provides an overview of features and usage. |
 
 ### CMSIS-Toolbox Project Examples (*csolution projects*)
 
 | Repository | Description | Documentation |
 |------------|-------------|---------------|
 | [csolution-examples](https://github.com/Open-CMSIS-Pack/csolution-examples) | A collection of exemplary csolution-based projects. | Refer to [Readme.md](https://github.com/Open-CMSIS-Pack/csolution-examples). |
-| [vscode-get-started](https://github.com/Open-CMSIS-Pack/vscode-get-started) | Setup of VS Code environment along wiht an example project. | Refer to [Readme.md](https://github.com/Open-CMSIS-Pack/vscode-get-started). |
+| [vscode-get-started](https://github.com/Open-CMSIS-Pack/vscode-get-started) | Setup of VS Code environment along with an example project. | Refer to [Readme.md](https://github.com/Open-CMSIS-Pack/vscode-get-started). |
 
 ### Tutorials for Creating Own Software Packs (Webinar Recordings in Readme.md)
 
@@ -47,7 +51,6 @@ The Open-CMSIS-Pack project offers a flexible and easy to use end to end develop
 | Repository | Pack Link   | Description  |
 |------------|-------------|--------------|
 | [NXP_FRDM-MCXN947_BSP](https://github.com/open-cmsis-pack/NXP_FRDM-MCXN947_BSP)  | experimental - use local repository | BSP for NXP_FRDM-MCXN947 |
-
 
 ### STM32 Packs with Generator Support
 
@@ -156,7 +159,6 @@ The following software packs support the [STM32CubeMX integration](https://githu
 | [STM32373C-EVAL_BSP](https://github.com/Open-CMSIS-Pack/STM32373C-EVAL_BSP) | [keil.arm.com/packs/stm32373c-eval_bsp-keil](https://www.keil.arm.com/packs/stm32373c-eval_bsp-keil) | Eval Kit for STM32F373VC |
 | [STM32303E-EVAL_BSP](https://github.com/Open-CMSIS-Pack/STM32303E-EVAL_BSP) | [keil.arm.com/packs/stm32303e-eval_bsp-keil](https://www.keil.arm.com/packs/stm32303e-eval_bsp-keil) | Eval Kit for STM32F303VE |
 
-
 ### More CMSIS Software Pack Examples
 
 | Repository | Description | Documentation |
@@ -171,6 +173,6 @@ The following software packs support the [STM32CubeMX integration](https://githu
 
 | Repository | Description | Documentation |
 |------------|-------------|---------------|
-| [devtools](https://github.com/Open-CMSIS-Pack/devtools) | Development repo of these command line tools: [packchk](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/packchk), [packgen](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/packgen), csloution ([projmgr](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/projmgr)), and cbuild ([buildmgr](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/buildmgr)). | Refer to [CMSIS-Toolbox User's Guide](https://open-cmsis-pack.github.io/cmsis-toolbox/). |
+| [devtools](https://github.com/Open-CMSIS-Pack/devtools) | Development repo of these command line tools: [packchk](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/packchk), [packgen](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/packgen), csolution ([projmgr](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/projmgr)), and cbuild ([buildmgr](https://github.com/Open-CMSIS-Pack/devtools/tree/main/tools/buildmgr)). | Refer to [CMSIS-Toolbox User's Guide](https://open-cmsis-pack.github.io/cmsis-toolbox/). |
 | [cpackget](https://github.com/Open-CMSIS-Pack/cpackget) | Source code repository of the cpackget tool (part of the CMSIS-Toolbox) | Refer to [Readme.md](https://github.com/Open-CMSIS-Pack/cpackget). |
-| [generator-bridge](https://github.com/Open-CMSIS-Pack/generator-bridge) | Source code repository of the cbrigde interface for STM32CubeMX | Refer to [Generator Integration](https://open-cmsis-pack.github.io/cmsis-toolbox/build-operation/#generator-integration). |
+| [generator-bridge](https://github.com/Open-CMSIS-Pack/generator-bridge) | Source code repository of the cbridge interface for STM32CubeMX | Refer to [Generator Integration](https://open-cmsis-pack.github.io/cmsis-toolbox/build-operation/#generator-integration). |
